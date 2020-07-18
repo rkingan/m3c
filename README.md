@@ -102,7 +102,10 @@ python $M3C/generate.pyx -r pr -f $M3C/root.json 18 8
 
 The program will generate a log detailing its actions, and will output the
 graphs in files named according to the current values of *n*, *m* and the type
-of graph being generated.
+of graph being generated. Note that only the graphs in the output files
+containing "A1", "A2", or "A3" in the name are minimally 3-connected; the
+graphs in the files with "B" and "C" in the name are intermediate graphs
+generated as part of a multi-step procedure.
 
 ### TODO : how to convert the files to a better format
 
