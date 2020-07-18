@@ -58,11 +58,12 @@ with a specific cubic minor that involve:
 1. Creating n-vertex, m-edge graphs from n-vertex, (m-1)-edge graphs
 2. Creating n-vertex, m-edge graphs from (n-1)-vertex, (m-1)-edge graphs
 
-This script expects to find files containing source graphs for the operations
-in the current directory, named according to the convention used in the script
-when saving files. For instance, using the default set of instructions, if the
-program were run to generate 11-vertex, 18-edge graphs, it would expect to
-find the following files already present from previous runs:
+This script expects to find the input files from previous runs in the current
+directory that it needs for its current operations, named according to the
+convention used in the script when saving files. For instance, using the
+default set of instructions, if the program were run to generate 11-vertex,
+18-edge graphs, it would expect to find the following files already present
+from previous runs:
 
 * m3c-11-17-B.txt.gz
 * m3c-11-17-A1.txt.gz
