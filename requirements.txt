@@ -1,0 +1,3 @@
+Cython>=0.29.14
+python-igraph>=0.8.2
+pynauty==0.6.0

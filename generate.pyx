@@ -247,6 +247,6 @@ def main(args):
 
 if __name__ == "__main__":
     args = _parse_command_line()
-    log.basicConfig(level=log.INFO, format="%(levelname)s:%(asctime)s %(message)s", filename="graphex-{n:03d}-{m:03d}.log".format(m=args.m, n=args.n))
+    log.basicConfig(level=log.INFO, format="%(levelname)s:%(asctime)s %(message)s", filename="m3c-{n:02d}-{m:02d}.log".format(m=args.m, n=args.n))
     log.info("Command line: " + " ".join(sys.argv))
     main(args)
