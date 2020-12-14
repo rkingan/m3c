@@ -1,0 +1,9 @@
+type,source,alg,dest
+ex,B,e2,C1
+ex,A0,e1,B
+ex,A1,e1,B
+ex,A2,e1,B
+ex,A3,e1,B
+ce,B,c1,A1
+ce,A1,c2,A2
+ce,C,c3,A3

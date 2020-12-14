@@ -1,0 +1,5 @@
+type,source,alg,dest
+ex,R,e1,B
+ex,A0,e1,B
+ce,B,c1,G
+ce,G,c2,R
