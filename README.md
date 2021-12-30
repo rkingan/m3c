@@ -5,9 +5,8 @@
 The script `generate.pyx` in this directory generates minimally 3-connected
 graphs with a given cubic minor as a "root" graph; the default root graph is
 the prism graph with 6 vertices and 9 edges. The code in this repository
-implements the procedures documented in *Constructing Minimally 3-connected
-graphs*, by Jo&atilde;o Paulo Costalonga, Robert Kingan and Sandra Kingan.
-(link).
+implements the procedures documented in ["Constructing Minimally 3-connected
+graphs", by Jo&atilde;o Paulo Costalonga, Robert Kingan and Sandra Kingan.](https://arxiv.org/abs/2012.12059).
 
 ## Getting started
 
